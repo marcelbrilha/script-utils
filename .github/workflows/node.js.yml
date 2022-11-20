@@ -23,13 +23,6 @@ jobs:
         cache: 'npm'
     - run: npm install
 
-    - name: Lint
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm run lint
-    
     - name: Unit tests
       uses: actions/setup-node@v3
       with:

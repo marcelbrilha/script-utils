@@ -1,4 +1,4 @@
-import { validateCpf, formatCpf } from "../utils/cpf";
+import { validateCpf, formatCpf } from "../utils/cpf.js";
 
 test("Validate CPF", () => {
   expect(validateCpf(22617781046)).toBeTruthy();

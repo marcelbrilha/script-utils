@@ -1,4 +1,4 @@
-import { convertFileToBase64 } from "./base64";
+import { convertFileToBase64 } from "./base64.js";
 
 /**
  * Download simple file

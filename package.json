@@ -2,7 +2,8 @@
   "name": "utils",
   "version": "2.0.0",
   "description": "Script utils",
-  "main": "src/index.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "commit": "git-cz",
     "lint": "npx eslint src/**/*.js",

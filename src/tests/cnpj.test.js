@@ -1,4 +1,4 @@
-import { validateCnpj, formatCnpj } from "../utils/cnpj";
+import { validateCnpj, formatCnpj } from "../utils/cnpj.js";
 
 test("Validate CNPJ", () => {
   expect(validateCnpj(83127443000175)).toBeTruthy();

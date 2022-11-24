@@ -1,4 +1,7 @@
-import { convertObjectToBase64, convertBase64ToObject } from "../utils/base64";
+import {
+  convertObjectToBase64,
+  convertBase64ToObject,
+} from "../utils/base64.js";
 
 test("Convert object to base64", () => {
   const objectTest = { test: "OK" };

@@ -1,4 +1,4 @@
-import { formatMoney, parseMoney } from "../utils/money";
+import { formatMoney, parseMoney } from "../utils/money.js";
 
 test("Parse money", () => {
   expect(parseMoney("50.000,50")).toBe(50000.5);

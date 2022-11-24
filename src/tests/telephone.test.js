@@ -1,4 +1,4 @@
-import { formatTelephone } from "../utils/telephone";
+import { formatTelephone } from "../utils/telephone.js";
 
 test("Format telephone", () => {
   expect(formatTelephone(1144196539)).toBe("(11) 4419-6539");

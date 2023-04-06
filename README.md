@@ -1,6 +1,6 @@
 # Script Utils - JS
 
-Biblioteca com scripts utilitários
+Script Utils é uma coleção de scripts úteis para automatizar tarefas comuns de desenvolvimento, como formatação de dados e validação de informações. Esses scripts foram criados para serem simples e fáceis de usar, permitindo que você se concentre em escrever código em vez de lidar com tarefas tediosas.
 
 ## Comandos importantes
 
@@ -12,7 +12,23 @@ Biblioteca com scripts utilitários
 | Executar os testes    | npm run test     |
 | Realizar commit       | npm run commit   |
 
+## Scripts Disponíveis
+
+Atualmente, os seguintes scripts estão disponíveis neste projeto:
+
+- convertObjectToBase64.js: Converte um objeto para uma string em base64.
+- convertBase64ToObject.js: Converte uma string em base64 de volta para um objeto.
+- validateCnpj.js: Valida se um número CNPJ é válido.
+- formatCnpj.js: Formata um número CNPJ.
+- validateCpf.js: Valida se um número CPF é válido.
+- formatCpf.js: Formata um número CPF.
+- parseMoney.js: Converte uma string de dinheiro em um número.
+- formatMoney.js: Formata um número em uma string de dinheiro.
+- formatTelephone.js: Formata um número de telefone.
+
 ## Como utilizar
+
+Para usar os scripts deste projeto, basta importar o arquivo correspondente para o seu projeto e chamá-lo como uma função. Por exemplo:
 
 ```js
 import {
@@ -51,3 +67,11 @@ function main() {
 
 main();
 ```
+
+## Contribuindo
+
+Contribuições são bem-vindas! Se você tiver algum script útil que gostaria de adicionar a este projeto, sinta-se à vontade para enviar uma pull request.
+
+## Licença
+
+Este projeto é licenciado sob a Licença MIT.
